@@ -1,0 +1,14 @@
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de Build e Dependências
+/build/
+/dist/
+/venv/
+.env
+
+# Arquivo do Banco de Dados SQLite
+acervo.db
+*.sqlite
+*.sqlite3
