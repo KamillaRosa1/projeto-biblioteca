@@ -1,0 +1,43 @@
+.
+├── acervo.db
+├── pom.xml
+├── project_structure.txt
+├── sql
+│   ├── data.sql
+│   └── schema.sql
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com
+│   │           └── library
+│   │               ├── dao
+│   │               │   ├── DatabaseConnector.java
+│   │               │   ├── UserDAOImpl.java
+│   │               │   └── UserDAO.java
+│   │               └── model
+│   │                   └── User.java
+│   └── test
+│       └── java
+│           └── com
+│               └── library
+│                   └── dao
+│                       └── UserDAOImplTest.java
+└── target
+    ├── classes
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    └── test-classes
+
+26 directories, 14 files

@@ -8,7 +8,17 @@ Thumbs.db
 /venv/
 .env
 
-# Arquivo do Banco de Dados SQLite
+# Diretório de Build do Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Arquivos de Banco de Dados SQLite
 acervo.db
+*.db
 *.sqlite
 *.sqlite3
+
+# Arquivos de Backup Comuns (Linux)
+*~
