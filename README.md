@@ -25,8 +25,6 @@ O projeto segue a estrutura padrão do Maven:
 | `src/main/java` | Código-fonte da aplicação (DAOs, Models, etc.). |
 | `src/test/java` | Código-fonte dos testes de unidade. |
 | `sql/` | Arquivos de definição do esquema (`schema.sql`) e dados iniciais (`data.sql`). |
-| `acervo.db` | Arquivo do banco de dados SQLite (ignorável pelo Git). |
-| `target/` | Arquivos gerados pelo Maven (classes, relatórios de teste, JAR). |
 
 ## 4. Configuração e Execução
 
@@ -54,8 +52,8 @@ Os testes validam a funcionalidade da camada DAO.
 
 ```bash
 mvn test
+```
 
----
 ## 5. Status da Implementação (UserDAO)
 
 O progresso da implementação da camada de acesso a dados para a entidade `User` é registrado abaixo:
